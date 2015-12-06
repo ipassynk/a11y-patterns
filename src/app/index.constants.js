@@ -3,8 +3,6 @@
   'use strict';
 
   angular
-    .module('routeA11y')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
+    .module('routeA11y');
 
 })();

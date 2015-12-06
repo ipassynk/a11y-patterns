@@ -1,0 +1,8 @@
+<div class="calculator text-center">
+  <button ng-click="vm.calculate();" aria-controls="calculate-result">Calculate</button>
+  <div id="calculate-result" role="region" aria-live="assertive" aria-relevant="all">
+    <div ng-if="vm.calculated" class="result">
+      <span>Result:</span><span>{{ vm.result }}</span>
+    </div>
+  </div>
+</div>
