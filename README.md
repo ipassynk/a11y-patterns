@@ -18,7 +18,7 @@
 
   I tried to use <b>aria-live</b> but somehow it did not work for this case. Role <b>alert</b> made the magic:
 
-  <img class="img-responsive" src="assets/images/rolealert.png" alt="code with role alert">
+  <img class="img-responsive" src="src/assets/images/rolealert.png" alt="code with role alert">
 
   <h2>Focus management</h2>
 
@@ -29,7 +29,7 @@
   Voice Over when I clicked on 'Route2' navigation link. As you see the screen reader was able to announce the new
   dynamic content automatically.
 
-  <img class="img-responsive" src="assets/images/voiceover.png" alt="voice over screen capture">
+  <img class="img-responsive" src="src/assets/images/voiceover.png" alt="voice over screen capture">
 
   <h2>Suggestions</h2>
   Please let me know if you solved this problem using other means.
