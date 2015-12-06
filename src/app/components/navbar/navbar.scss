@@ -1,7 +1,11 @@
 .acme-navbar-text{
   color: white;
+  .navbar {
+    margin-bottom: 0;
+  }
 }
 
 .glyphicon-home {
   padding-right: 5px;
+  color: #9d67AD;
 }

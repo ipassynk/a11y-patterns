@@ -15,24 +15,24 @@
     <li>Move focus should to the new dynamic content</li>
   </ul>
 
-  <h2>Push dynamic content</h2>
+  <h3>Push dynamic content</h3>
 
   I tried to use <b>aria-live</b> but somehow it did not work for this case. Role <b>alert</b> made the magic:
 
-  <img class="img-responsive" src="assets/images/rolealert.png" alt="code with role alert">
+  <img class="img-responsive rolealert" src="assets/images/rolealert.png" alt="code with role alert">
 
-  <h2>Focus management</h2>
+  <h3>Focus management</h3>
 
   <b>AutoFocus</b> directive was added to dynamically move the focus when on the success routing event.
 
-  <h2>How to test</h2>
+  <h3>How to test</h3>
   I tested the solution using Voice Over on Mac, NVDA on Windows and ChromVox plugin. Here is screen log from
   Voice Over when I clicked on 'Route2' navigation link. As you see the screen reader was able to announce the new
   dynamic content automatically.
 
   <img class="img-responsive" src="assets/images/voiceover.png" alt="voice over screen capture">
 
-  <h2>Suggestions</h2>
-  Please let me know if you solved this problem using other means.
+  <h3>Suggestions</h3>
+  Please let me know if you solved this problem using any other means.
 </div>
 

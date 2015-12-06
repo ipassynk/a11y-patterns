@@ -16,7 +16,7 @@
             templateUrl: 'app/components/header/header.html'
           },
           "main": {
-            template: '<ui-view autoscroll></ui-view>'
+            template: '<ui-view></ui-view>'
           },
           "footer": {
             templateUrl: 'app/components/footer/footer.html'

@@ -31,6 +31,6 @@ dynamic content automatically.
 <img class="img-responsive" src="src/assets/images/voiceover.png" alt="voice over screen capture">
 
 <h2>Suggestions</h2>
-Please let me know if you solved this problem using other means.
+Please let me know if you solved this problem using any other means.
 
 
