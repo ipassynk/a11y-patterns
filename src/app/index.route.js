@@ -16,7 +16,7 @@
             templateUrl: 'app/components/header/header.html'
           },
           "main": {
-            template: '<ui-view></ui-view>'
+            template: '<ui-view role="main"></ui-view>'
           },
           "footer": {
             templateUrl: 'app/components/footer/footer.html'
@@ -27,13 +27,25 @@
         url: "/",
         templateUrl: 'app/states/home/home.html'
       })
-      .state('base.route1', {
+      .state('base.liveAria', {
         url: "/route1",
         templateUrl: 'app/states/route1/route1.html'
       })
-      .state('base.route2', {
+      .state('base.busyButton', {
         url: "/route2",
-        templateUrl: 'app/states/route2/route2.html'
+        templateUrl: 'app/states/route3/route2.html'
+      })
+      .state('base.loading', {
+        url: "/loading",
+        templateUrl: 'app/states/route3/route3.html'
+      })
+      .state('base.alert', {
+        url: "/alert",
+        templateUrl: 'app/states/route3/route3.html'
+      })
+      .state('base.errorfield', {
+        url: "/errorfield",
+        templateUrl: 'app/states/route3/route3.html'
       });
 
     $urlRouterProvider.otherwise('/');

@@ -1,16 +1,20 @@
-<nav class="navbar navbar-static-top navbar-inverse">
+<nav class="navbar navbar-static-top navbar-inverse" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="https://github.com/ipassynk/route-a11y">
-        <span class="glyphicon glyphicon-home"></span>Route A11Y
+        <span class="glyphicon glyphicon-home"></span>A11Y Patterns
       </a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
-      <ul class="nav navbar-nav">
-        <li><a ui-sref="base.index">Home</a></li>
-        <li><a ui-sref="base.route1">Route1</a></li>
-        <li><a ui-sref="base.route2">Route2</a></li>
+      <ul class="nav navbar-nav" role="menu">
+        <li><a ui-sref="base.index" role="menuitem">Routing</a></li>
+        <li><a ui-sref="base.liveAria" role="menuitem">Aria Live</a></li>
+        <li><a ui-sref="base.busyButton" role="menuitem">Busy Button</a></li>
+        <li><a ui-sref="base.loading" role="menuitem">Loading</a></li>
+        <li><a ui-sref="base.loading" role="menuitem">Alert</a></li>
+        <li><a ui-sref="base.loading" role="menuitem">Error Field</a></li>
+        <li><a ui-sref="base.loading" role="menuitem">Title</a></li>
       </ul>
     </div>
   </div>

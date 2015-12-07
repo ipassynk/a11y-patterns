@@ -2,4 +2,21 @@
   img {
     margin: auto;
   }
+
+  button {
+    background-color: transparent;
+    color: #9d67AD;
+    padding: 10px 25px;
+    border: 1px solid #9d67AD;
+  }
+
+  button:hover, button:focus {
+    color: white;
+    background-color: #AE3ABF;
+    outline:0;
+  }
+
+  p{
+    margin-bottom: 20px;
+  }
 }
